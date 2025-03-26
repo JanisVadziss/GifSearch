@@ -26,6 +26,7 @@ okhttp = "4.12.0"
 okhttpBom = "4.12.0"
 retrofit = "2.11.0"
 junitJupiter = "5.8.1"
+kspPlugin= "2.1.20-1.0.31"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -71,4 +72,6 @@ junit-jupiter = { group = "org.junit.jupiter", name = "junit-jupiter", version.r
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+dagger-hilt-android = { id = "com.google.dagger.hilt.android", version.ref = "hiltAndroid" }
+devtools-ksp = { id = "com.google.devtools.ksp", version.ref = "kspPlugin" }
 
