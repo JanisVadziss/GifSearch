@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GifSearch</string>
+
+    <string name="search">Search</string>
+    <string name="details">Gif Details</string>
+    <string name="navigate_back">Navigate Back</string>
+    <string name="created_by">Created By:</string>
+    <string name="title">Title:</string>
+    <string name="description">Description:</string>
+    <string name="rating">Rating:</string>
+    <string name="unknown">Unknown</string>
+</resources>
