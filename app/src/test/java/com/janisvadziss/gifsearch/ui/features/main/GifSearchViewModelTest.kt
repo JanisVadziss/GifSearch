@@ -82,7 +82,7 @@ class GifSearchViewModelTest {
                 eventReceived.add(event)
             }
         }
-        advanceTimeBy(100) // Adjust the delay as necessary
+        advanceTimeBy(100)
         job.cancel()
 
         assertTrue(eventReceived.isEmpty())

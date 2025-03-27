@@ -6,8 +6,6 @@ import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 
-//fun LazyStaggeredGridState.isScrolledToEnd() = layoutInfo.visibleItemsInfo.lastOrNull()?.index == layoutInfo.totalItemsCount - 1
-
 @Composable
 fun LazyStaggeredGridState.isScrolledToTheEnd(): Boolean {
     val isScrolledToEnd by remember {

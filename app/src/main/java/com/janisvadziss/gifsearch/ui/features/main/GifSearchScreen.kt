@@ -109,8 +109,6 @@ fun GifSearchScreen(
 
     LaunchedEffect(key1 = events) {
         events.collectLatest { event ->
-            Log.d("crates_events", event.toString())
-
             when (event) {
                 is GifSearchUiEvent.DisplayMessage -> {
                     if (event.message.isNullOrEmpty()) {
